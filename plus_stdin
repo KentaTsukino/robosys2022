@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
-import sys
+  import sys
 
-ums =[ float(e) for e in sys.stdin[1:] ]
+    ans = 0.0
+      for line in sys.stdin:
+                ans += float(line)
 
-print (sum(nums))
+                  print(ans)
+
