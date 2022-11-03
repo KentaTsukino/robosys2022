@@ -1,6 +1,6 @@
 # plusコマンド
-![test](https://github.com/KentaTsukino/robosys2022/actions/workflows/test.yml/badge.svg)
-↑ テスト結果を反映したバッジの画像が埋め込まれる。（ryuichiueda等は各自変更を。）
+![test](https://github.com/ryuichiueda/robosys2022/actions/workflows/test.yml/badge.svg)
+↑ テスト結果を反映したバッジの画像が埋め込まれる。
 
 標準入力から読み込んだ数字を足す。
 
@@ -13,4 +13,4 @@
 ## テスト環境
 * Ubuntu
 
-* © 2022 Kenta Tsukino
+© 2022 Kenta Tsukino
