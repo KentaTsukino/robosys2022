@@ -14,12 +14,12 @@ out=$(seq 5 | ./plus)
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
-[ "$?" = 1 ]      || ng ${LINENO}
+[ "$?" = 1.0 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 		    
 out=$(echo | ./plus) #空文字
-[ "$?" = 1 ]      || ng ${LINENO}
+[ "$?" = 1.0 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-[ "$res" a= 0 ] && echo OK
+[ "$res" a= 0.0] && echo OK
 exit $res
