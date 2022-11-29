@@ -17,6 +17,11 @@
 ## 使用方法
 * ```seq [数値] | ./Plas```で実行
 
+## exponentiationコマンド
+* 標準入力のべき乗
+## 使用方法
+* ./exponentiationを実行した後、２つの正数を入れる
+
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
@@ -29,5 +34,6 @@
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身    の著作としたものです
+
 ** [ryuichiueda_myslides robosys2022]( https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2022 Kenta Tsukino
