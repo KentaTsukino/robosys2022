@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText:2022 Kenta Tsukino
+# SPDX-License-Identifier: BSD-Clause
+
+a = input("整数を入れてください A = ")
+b = input("整数を入れてください B = ")
+
+n = int(a)
+m = int(b)
+
+print("A ^ B = ", n ** m)
+
