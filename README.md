@@ -20,7 +20,7 @@
 ## exponentiationコマンド
 * 標準入力のべき乗
 ## 使用方法
-* ./exponentiationを実行した後、２つの正数を入れる
+* ```./exponentiation```を実行した後、２つの正数を入れる
 
 ## 必要なソフトウェア
 * Python
