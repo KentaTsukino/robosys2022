@@ -26,7 +26,8 @@ git clone git@github.com:KentaTsukino/robosys2022.git
 ## 使用方法
 ```
 $ seq 5 | ./Plus
-```で実行
+```
+で実行
 
 実行結果
 ```
