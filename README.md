@@ -24,7 +24,9 @@ git clone git@github.com:KentaTsukino/robosys2022.git
 ## Plusコマンド
 * 標準入力から読み込んだ数字を足す
 ## 使用方法
-```$ seq 5 | ./Plus```で実行
+```
+$ seq 5 | ./Plus
+```で実行
 
 実行結果
 ```
@@ -32,7 +34,7 @@ git clone git@github.com:KentaTsukino/robosys2022.git
 ```
 
 ## exponentiationコマンド
-* 標準入力のべき乗
+* 標準入力で読み込んだ２つの数のべき乗
 ## 使用方法
 ```
 $ ./exponentiation [引数] [引数]
