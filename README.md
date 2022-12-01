@@ -1,6 +1,7 @@
 # robosys2022
 
 ![test](https://github.com/KentaTsukino/robosys2022/actions/workflows/test.yml/badge.svg)
+
 千葉工業大学先進工学部未来ロボティクス学科で開講されているロボットシステム学の練習用リポジトリになります
 このリポジトリは
 
@@ -24,17 +25,14 @@ git clone git@github.com:KentaTsukino/robosys2022.git
 ## Plusコマンド
 * 標準入力から読み込んだ数字を足す
 ## 使用方法
+実行方法
 ```
 $ seq [引数] | ./Plus
 ```
-で実行
-
 出力例
 ```
 $ seq 5 | ./Plus
 ```
-で実行
-
 実行結果
 ```
 15
@@ -43,11 +41,10 @@ $ seq 5 | ./Plus
 ## exponentiationコマンド
 * 標準入力で読み込んだ２つの数のべき乗
 ## 使用方法
+実行方法
 ```
 $ ./exponentiation [引数] [引数]
 ```
-と実行
-
 実行すると1つ目の引数 ^ 2つ目の引数となります
 
 出力例
