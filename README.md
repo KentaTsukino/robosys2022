@@ -25,6 +25,12 @@ git clone git@github.com:KentaTsukino/robosys2022.git
 * 標準入力から読み込んだ数字を足す
 ## 使用方法
 ```
+$ seq [引数] | ./Plus
+```
+で実行
+
+出力例
+```
 $ seq 5 | ./Plus
 ```
 で実行
