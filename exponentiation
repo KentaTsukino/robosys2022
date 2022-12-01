@@ -2,11 +2,13 @@
 # SPDX-FileCopyrightText:2022 Kenta Tsukino
 # SPDX-License-Identifier: BSD-Clause
 
-a = input("整数を入れてください A = ")
-b = input("整数を入れてください B = ")
+import sys
 
-n = int(a)
-m = int(b)
-
-print("A ^ B = ", n ** m)
+args = sys.argv
+if len(args)==3:
+    n = int(args[1])
+    m = int(args[2])
+    print(n ** m)
+else:
+    print(-1)
 
