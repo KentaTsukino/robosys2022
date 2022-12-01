@@ -1,4 +1,5 @@
 # robosys2022
+
 ![test](https://github.com/KentaTsukino/robosys2022/actions/workflows/test.yml/badge.svg)
 千葉工業大学先進工学部未来ロボティクス学科で開講されているロボットシステム学の練習用リポジトリになります
 このリポジトリは
@@ -9,11 +10,9 @@
 ## インストールの方法
 下記のものをterminal上で実行
 
-HTTP
-```git clone https://github.com/KentaTsukino/robosys2022.git```
+HTTP```git clone https://github.com/KentaTsukino/robosys2022.git```
 
-SSH
-```git clone git@github.com:KentaTsukino/robosys2022.git```
+SSH```git clone git@github.com:KentaTsukino/robosys2022.git```
 
 ## Plusコマンド
 * 標準入力から読み込んだ数字を足す
