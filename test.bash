@@ -22,6 +22,10 @@ out=$(seq 5 | ./Plus)
 
 ### exponentiation test ###
 ans=$(./exponentiation 2 3)
-[ "$ans" = 8 ]
+[ "$ans" = 8 ] || ng ${LINENO}
+ans=$(./exponentiation )
+[ "$ans" = -1 ] || ng ${LINENO}
+ans=$(./exponentiation 2 3 4)
+[ "$ans" = -1 ] || ng ${LINENO}
 
-exit $?
+exit $res
