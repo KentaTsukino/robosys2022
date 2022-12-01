@@ -20,6 +20,8 @@ out=$(seq 5 | ./Plus)
 #[ "$?" = 1 ]      || ng ${LINENO}
 #[ "${out}" = "" ] || ng ${LINENO}
 
+### exponentiation test ###
+ans=$(./exponentiation 2 3)
+[ "$ans" = 8 ]
 
-[ "$res" = 0 ] && echo OK
-exit $res
+exit $?
